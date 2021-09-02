@@ -141,7 +141,7 @@ right: 165px;
         height: auto;
     }
 }
-@media screen and (max-width:1110px) {
+@media screen and (max-width:1110px ) {
     .pleaf1,.pleaf2,.pleaf3,.pleaf4,.pleaf5,.pleaf6{
         display: none;
     }
