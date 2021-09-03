@@ -1,13 +1,28 @@
- 
+.Container{
+    height: 100vh;
+    position: relative;
+    overflow:hidden;
+} 
+.containerWrapper{
+    position: absolute;
+top: 0;
+width: 100%;
+overflow: hidden;
+}
+video{
+    width: 100%;
+}
 /* ---------------navbar------------------- */
 
 .navbar{
     position: sticky;
     top: 0;
-    padding: 25px 0;
-    background-color: #3f3d56;;
+    background-color: #061c3e;
     font-family: var(--font1);
     z-index: 10;
+}
+.navbar .max-width{
+    height: 111px;
 }
 .navbar .logo a {
     color: white;
@@ -21,11 +36,11 @@
 .navbar .menu li a{
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 22px;
     margin-right: 35px;
 }
 .navbar .menu li a:hover,.navbar .menu .menu-active{
-    color: #bca6d8;
+    color: #7d7a81;
     font-weight: bold;
     border-bottom: 1px solid white;
     padding-bottom: 5px;
@@ -56,13 +71,15 @@
     min-height: 559px;
     font-family: var(--font1);
     height: 85vh;
+    /* background: url('../Images/home.jpg') no-repeat; */
+    /* background-size: cover; */
     /* background: rgb(13, 13, 117) url('../Images/illustrations/page-title.png'); */
 }
-.home::after{
+/* .home::after{
 content: "";
 background: rgba(247, 2, 2, 0.7)url('../Images/home.jpg');
 background-blend-mode: darken;
-/* background-image: url('../Images/home.jpg'); */
+background-image: url('../Images/home.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 position: absolute;
@@ -70,30 +87,30 @@ width: 100%;
 height: 100%;
 opacity: 0.35;
 z-index: -1;
-}
+} */
 .home-content{
     line-height: 60px;
     /* margin-left: 10%; */
 }
 .home .home-content .text-1{
-    color: black;
+    color: white;
     font-size: 30px;
     font-weight: 600;
     margin-left: 3px;
 }
 .home .home-content .text-2{
-    color: black;
+    color: white;
     font-size: 60px;
     font-weight: 600;
 }
 .home .home-content .text-3{
-    color:black;
+    color:white;
     font-size: 40px;
     font-weight: 600;
     margin-top: 10px;
 }
 .home .home-content  span{
-    color:black;
+    color:white;
 }
 .home .social-media{
     flex-direction: column;
@@ -111,7 +128,7 @@ z-index: -1;
     padding: 0 30px;
     transition: all 0.3s;
     display: inline-block;
-    color: #6c172f;
+    color: blanchedalmond;;
 }
 
 .social-media .social-media-icons a:hover{
@@ -122,7 +139,7 @@ transform: translateY(-4px);
     display: inline-block;
     padding: 11px 25px;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 35px;
     background: crimson;
     border: 5px solid crimson;
 transition: all 0.5s;

@@ -1,11 +1,15 @@
 
 @media screen and (max-width: 1000px) {
+    .Container video{
+        height: auto;
+        width: auto;
+    }
     .navbar .menu {
         display: none;
         
     }
     .navbar  #hidden{
-        background-color:#3f3d56;;
+        background-color:#061c3e;
         height: 50vh;
         width: 100vw;
         position: absolute;
@@ -41,6 +45,7 @@
       }
       .navbar .max-width{
           margin: 0;
+          height: 50px;
       }
       .navbar .menu-btn{
        

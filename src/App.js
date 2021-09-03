@@ -11,10 +11,16 @@ import Teams from './components/Teams'
 import "./components/Font-Icons/Fontawesome"
 import NavBar from './components/NavBar';
 import { Redirect,Switch,Route, } from 'react-router-dom'
+import video from './Images/videos/video-1.mp4'
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <div className="Container">
+      <video autoPlay loop src={video}></video>
+    </div>
+    
+      <div className="containerWrapper">
       <NavBar/>
       <Switch>
      <Route exact path="/home" component={Home}/>
@@ -25,10 +31,8 @@ function App() {
      <Route exact path="/teams" component={Teams}/>
     <Redirect to="/home"/>
       </Switch>
- 
-      
-      
     </div>
+    </>
   );
 }
 
