@@ -32,16 +32,17 @@ function Projects() {
                             <img src={project1} alt="project1" className="projectImg" />
                             <div className="Projectdesc">
                                 <h3 className="Projectname">Snake Game</h3>
-                                <p className="projectInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique, voluptate consequatur et dignissimos nulla quos sit, provident dolor natus iste ratione ex nobis eligendi quibusdam ipsa quia aliquid! Nobis?</p>
+                                <p className="projectInfo">It's the same snake game which we are all used to play in our childhood. It is developed using HTMl,CSS and JavaScript. It also stores the High Score and it won't get deleted or removed by reloading of the page
+                                    </p>
                                 <hr className="projectHr"/>
-                                <button className="projectBtn">View Project</button>
+                               <a href="https://snakegamev.netlify.app"> <button className="projectBtn">View Project</button></a>
                             </div>
                         </div>
                         <div className="projectCard">
                             <img src={project2} alt="project1" className="projectImg" />
                             <div className="Projectdesc">
                                 <h3 className="Projectname">To-Do List</h3>
-                                <p className="projectInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique, voluptate consequatur et dignissimos nulla quos sit, provident dolor natus iste ratione ex nobis eligendi quibusdam ipsa quia aliquid! Nobis?</p>
+                                <p className="projectInfo">It is developed using HTML, CSS, JavaScript and ReactJs. In this application we can actually add,delete and also can edit the list. As i have used local storage it won't get deleted or removed by reloading of the page </p>
                                 <hr className="projectHr"/>
                                 <button className="projectBtn">View Project</button>
                             </div>
@@ -50,10 +51,10 @@ function Projects() {
                         <div className="projectCard">
                             <img src={project3} alt="project1" className="projectImg" />
                             <div className="Projectdesc">
-                                <h3 className="Projectname">Snake Game</h3>
-                                <p className="projectInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo similique, voluptate consequatur et dignissimos nulla quos sit, provident dolor natus iste ratione ex nobis eligendi quibusdam ipsa quia aliquid! Nobis?</p>
+                                <h3 className="Projectname">Weather Application</h3>
+                                <p className="projectInfo">It is developed using HTML, CSS, JavaScript and ReactJs. In this application i have used real-time API to fetch the Weather of any city in the world</p>
                                 <hr className="projectHr"/>
-                                <button className="projectBtn">View Project</button>
+                                <a href="https://weatherrapplication.netlify.app"> <button className="projectBtn">View Project</button></a>
                             </div>
                             
                         </div>
