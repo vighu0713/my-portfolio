@@ -35,7 +35,7 @@ function Projects() {
                                 <p className="projectInfo">It's the same snake game which we are all used to play in our childhood. It is developed using HTMl,CSS and JavaScript. It also stores the High Score and it won't get deleted or removed by reloading of the page
                                     </p>
                                 <hr className="projectHr"/>
-                               <a href="https://snakegamev.netlify.app"> <button className="projectBtn">View Project</button></a>
+                               <a href="https://snakegamev.netlify.app" target="_blank" rel="noreferrer"> <button className="projectBtn">View Project</button></a>
                             </div>
                         </div>
                         <div className="projectCard">
@@ -54,7 +54,7 @@ function Projects() {
                                 <h3 className="Projectname">Weather Application</h3>
                                 <p className="projectInfo">It is developed using HTML, CSS, JavaScript and ReactJs. In this application i have used real-time API to fetch the Weather of any city in the world</p>
                                 <hr className="projectHr"/>
-                                <a href="https://weatherrapplication.netlify.app"> <button className="projectBtn">View Project</button></a>
+                                <a href="https://weatherrapplication.netlify.app" target="_blank" rel="noreferrer"> <button className="projectBtn">View Project</button></a>
                             </div>
                             
                         </div>

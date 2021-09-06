@@ -17,7 +17,7 @@ const Contact = () => {
         })
     }
     const submitForm=(e)=>{
-        // e.preventDefault()
+        e.preventDefault()
         alert(`Thank You ${value.Fullname} Your Message has been sent`)
     }
     return (
